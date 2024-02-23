@@ -23,12 +23,8 @@
     <div class="blueregistr">
         <h1 class="re">Реєстрація користувача</h1>
     </div>
-    
     <form action="login.php" method="post">
         <div class="block">
-             
-
-
             <div class="surname"> <p></p>
                 <label for="surname">Прізвище</label>
             <input type="text" id="surname" name="surname" required>
@@ -60,11 +56,15 @@
                   </select>
                   <p></p>
             </div>
-            
-
+            <div class="pass">
+                <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" required>
+            </div>
+            <div class="confpass">
+                <label for="confpassword">Підтвердження <br>паролю</label>
+            <input type="password" id="confpassword" name="confpassword" required>
+            </div>
         </div>
-       
-        
         <button class="in" type="submit">Зареєструватись</button>
     </form>
 </div>

@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html lang="uk">
+<html>
+<head>
+    <meta charset="UTF-8"> 
+<title> POVELICA </title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body> 
+    <header class="border">
+<div class="space">
+    <div><h1 class="tit"> Мій особистий влог </h1>
+<h3 class="name"> Повелиця Жанна </h3></div>
+    <div class="right">
+        <a href="login.html" class="login">Вхід</a><a href="register.html" class="registr">Реєстрація</a><br/>
+</div>
+</div>
+</div>
+</header>
+<main>
+<p></p>
+<div class="section">
+
+<div>
+    <h1 class="createarepository">Creare a Repository</h1>
+<p>From cratch -- Create a new local repository</p>
+<strong>$ git init [project name]</strong>
+<p>Download from an existing repository</p>
+<strong>$ git clone my_url</strong>
+<h1 class="observ">Observe your Repository</h1>
+<p> List new or modified files not yet commited</p>
+<strong> $ git status</strong>
+<p> Show the changes to files not yet staged</p>
+<strong>$ git diff</strong>
+<p> Show the changes to staged files</p>
+<strong> $ git diff --cached</strong>
+<p> Show all staged and unstaged fire changes</p>
+<strong> $ git diff HEAD</strong>
+<p> Show the changes between two commits</p>
+<strong> $ git diff commit1 commit2 </strong>
+<p> List the change dates and authors for a file</p>
+<strong> $ git blame [file]</strong>
+<p> Show the file changes for a commit id and/or file</p>
+<strong> $ git show [commit]:[file]</strong>
+<p> Show full change history</p>
+<strong> $ git log</strong>
+<p> Show change history for file/directory including diffs</p>
+<strong> $ git log -p [file/directory]</strong>
+</div>
+
+
+<div>
+    <h1> Working with Branches</h1>
+    <p> List a local branches </p>
+    <strong> $ git branch </strong>
+    <p> List all branches, local and remote </p>
+    <strong> $ git branch -av </strong>
+    <p> Switch to a branch, my_branch, and update working directory </p>
+    <strong> $ git checkout my_branch </strong>
+    <p> Create a new branch called rew_branch</p>
+    <strong> $ git branch new_branch </strong>
+    <p>Delete the branch called my_branch</p>
+    <strong> $ git branch -d my_branch </strong>
+    <p> Merge branch_a into branch_b</p>
+    <strong>$ git checkout branch_b</strong>
+    <strong> $ git merge btanch_a</strong>
+    <p> Get current commit</p>
+    <strong>$ git tag my_tag </strong>
+</div>
+
+
+<div>
+    <h1> Make a change </h1>
+    <p> Stages the file, ready for commit</p>
+    <strong> $ git add [file]</strong>
+    <p> Stage all changed files, ready for commit</p>
+    <strong> $ git add </strong>
+    <p> Commit all staged files to versioned history </p>
+    <strong> $ git commit -m "commit message"</strong>
+    <p> Commit all your tracked files to versioned history</p>
+    <strong> $ git commit -an "commit message"</strong>
+    <p> Unstages file, keeping the file changes</p>
+    <strong> $ git reset [file] </strong>
+    <p> Revert everything to the last commit</p>
+    <strong> $ git reset --hard</strong>
+    </div>
+    <div>
+        <h1> Synchronize </h1>
+        <p> Get the latest changes from origin (no merge) </p>
+        <strong> $ git fetch</strong>
+        <p> Fetch the latest changes from origin and merge </p>
+        <strong> $ git pull </strong>
+        <p> Fetch the latest changes from origin and rebase</p>
+        <strong> $ git pull --rebase </strong>
+        <p> Push local changes to the origin</p>
+        <strong> $ git push</strong>
+        <h1> Finally!</h1>
+        <p> When in doubt, use git help </p>
+        <strong> $ git command --help</strong>
+        <p> Or visit https://training.github.com/ for official GitHub training</p>
+        </div>
+
+</div>
+
+</div>
+<footer class="footer1">
+<div class="underground">
+<p class="copy"> &copy Всі права захищені</p>
+<p class="copy"> Розробник: курсант 212 навчальної групи Повелиця Ж.С.</p>
+</div>
+</footer>
+</body>
+</html>
